@@ -1,10 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-use app\Http\Controllers\{
-    UserController
-};
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +18,7 @@ use app\Http\Controllers\{
 Route::get('/user', [UserController::class, 'index'])->name('user.index');
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'API Fullstack Job Test - DomPixel running';
 });
+
+Route::resource('products',ProductController::class);
