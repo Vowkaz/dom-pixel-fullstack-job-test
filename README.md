@@ -1,12 +1,5 @@
 # Fullstack Job Test - DomPixel
 
-### 📝 Readme do Repositório
- 
-- Deve conter o título do projeto
-- Uma descrição do projeto
-- Instruções de como executar o projeto de maneira detalhada e especifica de cada parte (frontend e backend)
-- Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
-
 ## API desenvolvida para criaçao de produtos num banco de dados, junto a possibilidade de editar e remover.
 
 #### 🆕 Criação de produto
